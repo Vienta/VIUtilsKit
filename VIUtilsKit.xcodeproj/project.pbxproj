@@ -26,6 +26,7 @@
 		B3F42D171D93C43A0075DE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F42D1A1D93C43A0075DE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3F42D1C1D93C43A0075DE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F42D231D93C99C0075DE75 /* VIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		B3F42CFF1D93C43A0075DE75 = {
 			isa = PBXGroup;
 			children = (
+				B3F42D221D93C8340075DE75 /* Class */,
 				B3F42D0A1D93C43A0075DE75 /* VIUtilsKit */,
 				B3F42D091D93C43A0075DE75 /* Products */,
 			);
@@ -79,6 +81,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B3F42D221D93C8340075DE75 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B3F42D231D93C99C0075DE75 /* VIMacro.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					B3F42D071D93C43A0075DE75 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LJUJZGPE73;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LJUJZGPE73;
 				INFOPLIST_FILE = VIUtilsKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.vienta.VIUtilsKit;
@@ -283,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LJUJZGPE73;
 				INFOPLIST_FILE = VIUtilsKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.vienta.VIUtilsKit;
@@ -309,6 +322,7 @@
 				B3F42D211D93C43A0075DE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
