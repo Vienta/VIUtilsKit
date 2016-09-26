@@ -44,6 +44,7 @@
 #define COLOR_RGBA(__red__,__green__,__blue__,__alpha__)  [UIColor colorWithRed:((__red__)*1.0/255.0) green:((__green__)*1.0/255.0) blue:((__blue__)*1.0/255.0) alpha:(__alpha__*1.0)]
 #define COLOR_RGB(__red__,__green__,__blue__) [UIColor colorWithRed:((__red__)*1.0/255.0) green:((__green__)*1.0/255.0) blue:((__blue__)*1.0/255.0) alpha:1]
 #define COLOR_CSS(__hex__)  [UIColor colorWithRed:((__hex__ & 0xFF0000) >> 16)*1.0/255.0 green:((__hex__ & 0xFF00) >> 8)*1.0/255.0 blue:(__hex__ & 0xFF)*1.0/255.0 alpha:1.0]
+#define BUNDLE_LOAD_NIB(__nibName__) [[[NSBundle mainBundle] loadNibNamed:__nibName__ owner:nil options:nil] firstObject]
 
 
 #define SINGLETON_INSTANCE \
