@@ -10,7 +10,6 @@
 		A429B35F42CF0D93E74412D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A13DAED8867E5EFB17F9F6CF /* libPods.a */; };
 		B31625571D93CCC100879576 /* DeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = B31625561D93CCC100879576 /* DeviceHardware.m */; };
 		B316255A1D93CD4600879576 /* VIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B31625591D93CD4600879576 /* VIUtils.m */; };
-		B3D552FA1D9923E500FBEF95 /* VIBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D552F91D9923E500FBEF95 /* VIBaseService.m */; };
 		B3F42D0D1D93C43A0075DE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F42D0C1D93C43A0075DE75 /* main.m */; };
 		B3F42D101D93C43A0075DE75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F42D0F1D93C43A0075DE75 /* AppDelegate.m */; };
 		B3F42D131D93C43A0075DE75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F42D121D93C43A0075DE75 /* ViewController.m */; };
@@ -25,8 +24,6 @@
 		B31625561D93CCC100879576 /* DeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceHardware.m; sourceTree = "<group>"; };
 		B31625581D93CD4600879576 /* VIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIUtils.h; sourceTree = "<group>"; };
 		B31625591D93CD4600879576 /* VIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIUtils.m; sourceTree = "<group>"; };
-		B3D552F81D9923E500FBEF95 /* VIBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIBaseService.h; sourceTree = "<group>"; };
-		B3D552F91D9923E500FBEF95 /* VIBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIBaseService.m; sourceTree = "<group>"; };
 		B3F42D081D93C43A0075DE75 /* VIUtilsKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIUtilsKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F42D0C1D93C43A0075DE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3F42D0E1D93C43A0075DE75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,15 +58,6 @@
 				F91D8383650FFE0B4EB50D57 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B3D552F71D9923A900FBEF95 /* BaseService */ = {
-			isa = PBXGroup;
-			children = (
-				B3D552F81D9923E500FBEF95 /* VIBaseService.h */,
-				B3D552F91D9923E500FBEF95 /* VIBaseService.m */,
-			);
-			path = BaseService;
 			sourceTree = "<group>";
 		};
 		B3F42CFF1D93C43A0075DE75 = {
@@ -123,7 +111,6 @@
 				B31625591D93CD4600879576 /* VIUtils.m */,
 				B31625551D93CCC100879576 /* DeviceHardware.h */,
 				B31625561D93CCC100879576 /* DeviceHardware.m */,
-				B3D552F71D9923A900FBEF95 /* BaseService */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -260,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F42D131D93C43A0075DE75 /* ViewController.m in Sources */,
-				B3D552FA1D9923E500FBEF95 /* VIBaseService.m in Sources */,
 				B316255A1D93CD4600879576 /* VIUtils.m in Sources */,
 				B31625571D93CCC100879576 /* DeviceHardware.m in Sources */,
 				B3F42D101D93C43A0075DE75 /* AppDelegate.m in Sources */,

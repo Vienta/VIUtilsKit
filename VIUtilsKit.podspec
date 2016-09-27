@@ -93,9 +93,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Class/*.{h,m}"
   
-  s.subspec 'BaseService' do |ss|
-     ss.source_files = 'Class/BaseService/*.{h,m}'
-  end
 
   # s.exclude_files = "Classes/Exclude"
 
